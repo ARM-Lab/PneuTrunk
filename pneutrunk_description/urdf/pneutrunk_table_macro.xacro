@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro">
+
+<xacro:macro name="pneutrunk_table">
+    <link name="base_link">
+    <visual>
+        <origin
+            xyz="0 0 0"
+            rpy="0 0 0" />
+        <geometry>
+            <mesh filename="package://pneutrunk_description/meshes/base_link.STL" />
+        </geometry>
+        <material name="">
+            <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+      </material>
+    </visual>
+    </link>
+
+    <link name="tool_link"/>
+   
+
+    <joint name="base_tool_joint" type="fixed">
+        <origin xyz="0.8 0.834121320343554 2.03812132034355"
+                rpy="0 0 0" />        
+        <parent link="base_link" />
+        <child link="tool_link" />
+        <axis xyz="0 0 0" />
+    </joint>
+</xacro:macro>
+
+</robot>

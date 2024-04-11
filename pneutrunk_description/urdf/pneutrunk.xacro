@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<robot name="pneutrunk" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<!-- TODO: Create base link -->
+<xacro:include filename="$(find pneutrunk_description)/urdf/pneutrunk_table_macro.xacro"/>
+<xacro:pneutrunk_table />
+
+<!-- Add robot -->
+ <xacro:include filename="$(find pneutrunk_description)/urdf/segment_macro.xacro"/>
+<xacro:segment id="1" baselink="tool_link"/>
+<xacro:segment id="2" baselink="tool_link"/>
+<xacro:segment id="3" baselink="tool_link"/>
+<xacro:segment id="4" baselink="tool_link"/>
+<xacro:segment id="5" baselink="tool_link"/>
+<xacro:segment id="6" baselink="tool_link"/>
+<xacro:segment id="7" baselink="tool_link"/>
+
+
+</robot>
