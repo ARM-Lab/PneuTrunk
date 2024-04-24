@@ -2,7 +2,7 @@ import cv2
 import rclpy
 import subprocess
 from sensor_msgs.msg import Image
-from std_msgs.msg import String  # importing String message
+from std_msgs.msg import String  # importing String messages
 from rclpy.node import Node
 from cv_bridge import CvBridge
 from ultralytics import YOLO
