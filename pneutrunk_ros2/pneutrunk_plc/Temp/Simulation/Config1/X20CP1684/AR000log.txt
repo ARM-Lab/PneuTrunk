@@ -1,0 +1,21 @@
+Wed Feb 19 18:04:43 2025
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Wed Feb 19 18:04:43 2025
+No ARsim registration found!
+
+Wed Feb 19 18:04:43 2025
+InstanceName: 000002d85945b2a4
+
+Wed Feb 19 18:04:43 2025
+WorkingDirectory: C:\Users\Gleb\Documents\PneuTrunk-main\pneutrunk_plc\Temp\Simulation\Config1\X20CP1684\
+
+Wed Feb 19 18:04:43 2025
+COMMAND_COLDSTART
+
+Wed Feb 19 18:04:46 2025
+Version: B4.93
+
+Wed Feb 19 18:05:53 2025
+COMMAND_TERMINATE
+

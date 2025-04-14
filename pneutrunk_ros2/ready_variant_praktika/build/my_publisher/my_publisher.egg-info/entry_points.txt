@@ -1,0 +1,4 @@
+[console_scripts]
+plc_ros_node = my_publisher.plc_data_solver:main
+plc_rviz_node = my_publisher.r_viz_receiver:main
+

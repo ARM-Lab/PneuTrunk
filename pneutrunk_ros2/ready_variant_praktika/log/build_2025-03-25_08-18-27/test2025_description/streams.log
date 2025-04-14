@@ -1,0 +1,21 @@
+[0.951s] Invoking command in '/home/administrator/ros2_bc_work1/src/test2025_description/test2025_description': PYTHONPATH=/home/administrator/ros2_bc_work1/build/test2025_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/administrator/ros2_bc_work1/install/test2025_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/test2025_description build --build-base /home/administrator/ros2_bc_work1/build/test2025_description/build install --record /home/administrator/ros2_bc_work1/build/test2025_description/install.log --single-version-externally-managed install_data
+[1.208s] running egg_info
+[1.212s] writing ../../../build/test2025_description/test2025_description.egg-info/PKG-INFO
+[1.212s] writing dependency_links to ../../../build/test2025_description/test2025_description.egg-info/dependency_links.txt
+[1.212s] writing entry points to ../../../build/test2025_description/test2025_description.egg-info/entry_points.txt
+[1.212s] writing requirements to ../../../build/test2025_description/test2025_description.egg-info/requires.txt
+[1.213s] writing top-level names to ../../../build/test2025_description/test2025_description.egg-info/top_level.txt
+[1.213s] reading manifest file '../../../build/test2025_description/test2025_description.egg-info/SOURCES.txt'
+[1.215s] writing manifest file '../../../build/test2025_description/test2025_description.egg-info/SOURCES.txt'
+[1.215s] running build
+[1.216s] running build_py
+[1.216s] running install
+[1.216s] running install_lib
+[1.218s] running install_data
+[1.218s] copying urdf/test2025.xacro -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/urdf
+[1.220s] running install_egg_info
+[1.224s] removing '/home/administrator/ros2_bc_work1/install/test2025_description/lib/python3.10/site-packages/test2025_description-0.0.0-py3.10.egg-info' (and everything under it)
+[1.226s] Copying ../../../build/test2025_description/test2025_description.egg-info to /home/administrator/ros2_bc_work1/install/test2025_description/lib/python3.10/site-packages/test2025_description-0.0.0-py3.10.egg-info
+[1.226s] running install_scripts
+[1.253s] writing list of installed files to '/home/administrator/ros2_bc_work1/build/test2025_description/install.log'
+[1.302s] Invoked command in '/home/administrator/ros2_bc_work1/src/test2025_description/test2025_description' returned '0': PYTHONPATH=/home/administrator/ros2_bc_work1/build/test2025_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/administrator/ros2_bc_work1/install/test2025_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/test2025_description build --build-base /home/administrator/ros2_bc_work1/build/test2025_description/build install --record /home/administrator/ros2_bc_work1/build/test2025_description/install.log --single-version-externally-managed install_data

@@ -1,0 +1,56 @@
+running develop
+running egg_info
+writing test2025_description.egg-info/PKG-INFO
+writing dependency_links to test2025_description.egg-info/dependency_links.txt
+writing entry points to test2025_description.egg-info/entry_points.txt
+writing requirements to test2025_description.egg-info/requires.txt
+writing top-level names to test2025_description.egg-info/top_level.txt
+reading manifest file 'test2025_description.egg-info/SOURCES.txt'
+writing manifest file 'test2025_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/administrator/ros2_bc_work1/install/test2025_description/lib/python3.10/site-packages/test2025-description.egg-link (link to .)
+
+Installed /home/administrator/ros2_bc_work1/build/test2025_description
+running symlink_data
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/resource/test2025_description -> /home/administrator/ros2_bc_work1/install/test2025_description/share/ament_index/resource_index/packages
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/package.xml -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/launch/display.launch.py -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/launch
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/launch/gazebo.launch.py -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/launch
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/urdf/materials.xacro -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/urdf
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/urdf/test2025.xacro -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/urdf
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/urdf/test2025.gazebo -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/urdf
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/urdf/test2025.trans -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/urdf
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new14_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new17_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new9_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new22_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new19_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/smallpart6_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new6_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/bigpart.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/smallpart8_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new10_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new13_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new5_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new20_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/square.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/smallpart_v2_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/smallpart2_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new8_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new1_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new21_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new18_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/smallpart4_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new2_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/base_link.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/smallpart7_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new3_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new12_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new7_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/smallpar5_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new4_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new15_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/meshes/joint_new11_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/config/gazebo.rviz -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/config
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/config/ros_gz_bridge_gazebo.yaml -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/config
+symbolically linking /home/administrator/ros2_bc_work1/build/test2025_description/config/display.rviz -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/config

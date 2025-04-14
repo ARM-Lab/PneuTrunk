@@ -1,0 +1,839 @@
+<?xml version="1.0" ?>
+<robot name="test2025" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find test2025_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find test2025_description)/urdf/test2025.trans" />
+<xacro:include filename="$(find test2025_description)/urdf/test2025.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="1.0957880591429838e-14 -2.530688358297884e-17 1.505" rpy="0 0 0"/>
+    <mass value="1.4105911906354731"/>
+    <inertia ixx="0.003082" iyy="0.003082" izz="0.006141" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 1.5" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/bigpart.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/bigpart.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="begin">
+  <inertial>
+    <origin xyz="1.0789978824831561e-14 1.1658898033942365e-16 -0.0050000000000001155" rpy="0 0 0"/>
+    <mass value="1.4105911906354731"/>
+    <inertia ixx="0.003082" iyy="0.003082" izz="0.006141" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/square.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/square.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new2_1">
+  <inertial>
+    <origin xyz="-1.8487433806058108e-14 -1.815436689867056e-14 -0.0031500001026689706" rpy="0 0 0"/>
+    <mass value="0.0340764386272458"/>
+    <inertia ixx="2e-06" iyy="2e-06" izz="1e-06" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -1.42267" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -1.42267" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new3_1">
+  <inertial>
+    <origin xyz="-4.930369261543339e-10 2.6454526918524288e-09 -0.04226656204207124" rpy="0 0 0"/>
+    <mass value="0.19346749141372932"/>
+    <inertia ixx="9.5e-05" iyy="9.4e-05" izz="1.3e-05" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -1.41637" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -1.41637" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new5_1">
+  <inertial>
+    <origin xyz="1.8394175071989594e-14 1.8491874698156608e-14 -0.0031500001026685265" rpy="0 0 0"/>
+    <mass value="0.0340764386272458"/>
+    <inertia ixx="2e-06" iyy="2e-06" izz="1e-06" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -1.25171" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -1.25171" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new6_1">
+  <inertial>
+    <origin xyz="4.93036736002378e-10 -2.645452425378139e-09 -0.04226656204207124" rpy="0 0 0"/>
+    <mass value="0.19346749141372932"/>
+    <inertia ixx="9.5e-05" iyy="9.4e-05" izz="1.3e-05" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -1.24541" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new6_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -1.24541" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new6_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new8_1">
+  <inertial>
+    <origin xyz="-1.865840815185038e-14 -1.8030021919912543e-14 -0.0031500001026689706" rpy="0 0 0"/>
+    <mass value="0.0340764386272458"/>
+    <inertia ixx="2e-06" iyy="2e-06" izz="1e-06" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -1.10975" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new8_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -1.10975" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new8_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new9_1">
+  <inertial>
+    <origin xyz="-8.607416833169131e-10 4.618420040339907e-09 -0.02693043844637466" rpy="0 0 0"/>
+    <mass value="0.11081909038414338"/>
+    <inertia ixx="2.6e-05" iyy="2.5e-05" izz="8e-06" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -1.10345" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new9_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -1.10345" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new9_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new1_1">
+  <inertial>
+    <origin xyz="2.645452567273999e-09 -4.930367929586701e-10 -0.035063437957928656" rpy="0 0 0"/>
+    <mass value="0.19346749141372932"/>
+    <inertia ixx="9.4e-05" iyy="9.5e-05" izz="1.3e-05" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -1.5" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -1.5" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="smallpart2_1">
+  <inertial>
+    <origin xyz="1.0890862930295734e-14 8.802085831409073e-17 -0.0050000000000001155" rpy="0 0 0"/>
+    <mass value="1.4105911906354731"/>
+    <inertia ixx="0.003082" iyy="0.003082" izz="0.006141" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/bigpart.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/bigpart.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new4_1">
+  <inertial>
+    <origin xyz="2.6454525008906317e-09 -4.930366918258786e-10 -0.035063437957928656" rpy="0 0 0"/>
+    <mass value="0.19346749141372932"/>
+    <inertia ixx="9.4e-05" iyy="9.5e-05" izz="1.3e-05" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -1.32904" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -1.32904" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="smallpart4_1">
+  <inertial>
+    <origin xyz="1.0789978824831561e-14 1.1658898033942365e-16 -0.0050000000000001155" rpy="0 0 0"/>
+    <mass value="1.4105911906354731"/>
+    <inertia ixx="0.003082" iyy="0.003082" izz="0.006141" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/bigpart.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/bigpart.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new7_1">
+  <inertial>
+    <origin xyz="4.61841956238975e-09 -8.607413508259736e-10 -0.021399561553625768" rpy="0 0 0"/>
+    <mass value="0.11081909038414338"/>
+    <inertia ixx="2.5e-05" iyy="2.6e-05" izz="8e-06" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -1.15808" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new7_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -1.15808" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new7_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="smallpart_v2_1">
+  <inertial>
+    <origin xyz="1.0804354511629265e-14 2.7796222379253023e-16 -0.005000000000001004" rpy="0 0 0"/>
+    <mass value="1.4105911906354731"/>
+    <inertia ixx="0.003082" iyy="0.003082" izz="0.006141" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -1.05512" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/smallpart_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -1.05512" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/smallpart_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new10_1">
+  <inertial>
+    <origin xyz="4.6184195761311436e-09 -8.607411959220328e-10 -0.021399561553626656" rpy="0 0 0"/>
+    <mass value="0.11081909038414338"/>
+    <inertia ixx="2.5e-05" iyy="2.6e-05" izz="8e-06" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -1.04512" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new10_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -1.04512" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new10_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new11_1">
+  <inertial>
+    <origin xyz="1.8292034553724078e-14 1.8687273950490634e-14 -0.0031500001026691926" rpy="0 0 0"/>
+    <mass value="0.0340764386272458"/>
+    <inertia ixx="2e-06" iyy="2e-06" izz="1e-06" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -0.99679" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new11_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -0.99679" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new11_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new12_1">
+  <inertial>
+    <origin xyz="8.607414500552971e-10 -4.618419335528057e-09 -0.026930438446375216" rpy="0 0 0"/>
+    <mass value="0.11081909038414338"/>
+    <inertia ixx="2.6e-05" iyy="2.5e-05" izz="8e-06" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -0.99049" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new12_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -0.99049" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new12_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="smallpar5_1">
+  <inertial>
+    <origin xyz="1.084869084894039e-14 3.694565844502912e-16 -0.005000000000001004" rpy="0 0 0"/>
+    <mass value="1.4105911906354731"/>
+    <inertia ixx="0.003082" iyy="0.003082" izz="0.006141" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -0.94216" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/smallpar5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -0.94216" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/smallpar5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new13_1">
+  <inertial>
+    <origin xyz="-4.61841972569814e-09 8.607418865410405e-10 -0.021399561553626878" rpy="0 0 0"/>
+    <mass value="0.11081909038414338"/>
+    <inertia ixx="2.5e-05" iyy="2.6e-05" izz="8e-06" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -0.93216" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new13_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -0.93216" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new13_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new14_1">
+  <inertial>
+    <origin xyz="-1.8272050539280828e-14 -1.7994494783124535e-14 -0.0031500001026695257" rpy="0 0 0"/>
+    <mass value="0.0340764386272458"/>
+    <inertia ixx="2e-06" iyy="2e-06" izz="1e-06" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.88383" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new14_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.88383" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new14_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new15_1">
+  <inertial>
+    <origin xyz="8.607417089618316e-10 -4.618419427457033e-09 -0.02693043844637477" rpy="0 0 0"/>
+    <mass value="0.11081909038414338"/>
+    <inertia ixx="2.6e-05" iyy="2.5e-05" izz="8e-06" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -0.87753" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new15_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -0.87753" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new15_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="smallpart6_1">
+  <inertial>
+    <origin xyz="1.1355627824139016e-14 3.075819631854193e-16 -0.0050000000000005596" rpy="0 0 0"/>
+    <mass value="1.4105911906354731"/>
+    <inertia ixx="0.003082" iyy="0.003082" izz="0.006141" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.8292" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/smallpart6_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.8292" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/smallpart6_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new17_1">
+  <inertial>
+    <origin xyz="4.618420127404456e-09 -8.607411282000761e-10 -0.021399561553626323" rpy="0 0 0"/>
+    <mass value="0.11081909038414338"/>
+    <inertia ixx="2.5e-05" iyy="2.6e-05" izz="8e-06" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.8192" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new17_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.8192" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new17_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new18_1">
+  <inertial>
+    <origin xyz="-1.808775351719305e-14 -1.7745804825608506e-14 -0.0031500001026691926" rpy="0 0 0"/>
+    <mass value="0.0340764386272458"/>
+    <inertia ixx="2e-06" iyy="2e-06" izz="1e-06" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.77087" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new18_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.77087" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new18_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new19_1">
+  <inertial>
+    <origin xyz="-8.607412601299345e-10 4.618420318503872e-09 -0.02693043844637444" rpy="0 0 0"/>
+    <mass value="0.11081909038414338"/>
+    <inertia ixx="2.6e-05" iyy="2.5e-05" izz="8e-06" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.76457" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new19_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.76457" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new19_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="smallpart7_1">
+  <inertial>
+    <origin xyz="1.123323741272321e-14 5.861805454790755e-16 -0.0050000000000003375" rpy="0 0 0"/>
+    <mass value="1.4105911906354731"/>
+    <inertia ixx="0.003082" iyy="0.003082" izz="0.006141" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.71624" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/smallpart7_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.71624" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/smallpart7_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new20_1">
+  <inertial>
+    <origin xyz="-4.6184195446222334e-09 8.607421274843434e-10 -0.0213995615536261" rpy="0 0 0"/>
+    <mass value="0.11081909038414338"/>
+    <inertia ixx="2.5e-05" iyy="2.6e-05" izz="8e-06" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.70624" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new20_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.70624" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new20_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new21_1">
+  <inertial>
+    <origin xyz="1.8545165403338614e-14 1.8829382497642654e-14 -0.0031500001026686375" rpy="0 0 0"/>
+    <mass value="0.0340764386272458"/>
+    <inertia ixx="2e-06" iyy="2e-06" izz="1e-06" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.65791" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new21_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.65791" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new21_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_new22_1">
+  <inertial>
+    <origin xyz="-8.607416605116231e-10 4.6184203227252285e-09 -0.026930438446374216" rpy="0 0 0"/>
+    <mass value="0.11081909038414338"/>
+    <inertia ixx="2.6e-05" iyy="2.5e-05" izz="8e-06" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.65161" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new22_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.65161" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/joint_new22_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="smallpart8_1">
+  <inertial>
+    <origin xyz="1.0655856493709253e-14 5.5971325403661445e-16 -0.0050000000000003375" rpy="0 0 0"/>
+    <mass value="1.4105911906354731"/>
+    <inertia ixx="0.003082" iyy="0.003082" izz="0.006141" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -0.60328" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/smallpart8_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -0.60328" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find test2025_description)/meshes/smallpart8_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Revolute2" type="revolute">
+  <origin xyz="-0.0 0.0 -0.07733" rpy="0 0 0"/>
+  <parent link="joint_new1_1"/>
+  <child link="joint_new2_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+  <limit upper="0.383972" lower="-0.383972" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute3" type="revolute">
+  <origin xyz="0.0 0.0 -0.0063" rpy="0 0 0"/>
+  <parent link="joint_new2_1"/>
+  <child link="joint_new3_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+  <limit upper="0.383972" lower="-0.383972" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute6" type="revolute">
+  <origin xyz="0.0 0.0 -0.07733" rpy="0 0 0"/>
+  <parent link="joint_new4_1"/>
+  <child link="joint_new5_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+  <limit upper="0.383972" lower="-0.383972" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute7" type="revolute">
+  <origin xyz="0.0 0.0 -0.0063" rpy="0 0 0"/>
+  <parent link="joint_new5_1"/>
+  <child link="joint_new6_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+  <limit upper="0.383972" lower="-0.383972" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute10" type="revolute">
+  <origin xyz="0.0 0.0 -0.04833" rpy="0 0 0"/>
+  <parent link="joint_new7_1"/>
+  <child link="joint_new8_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+  <limit upper="0.383972" lower="-0.383972" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute11" type="revolute">
+  <origin xyz="0.0 0.0 -0.0063" rpy="0 0 0"/>
+  <parent link="joint_new8_1"/>
+  <child link="joint_new9_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+  <limit upper="0.383972" lower="-0.383972" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Rigid 13" type="fixed">
+  <origin xyz="0.0 0.0 1.5" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="joint_new1_1"/>
+</joint>
+
+<joint name="Rigid 80" type="fixed">
+  <origin xyz="0.0 0.0 -1.51" rpy="0 0 0"/>
+  <parent link="begin"/>
+  <child link="base_link"/>
+</joint>
+
+<joint name="Rigid 14" type="fixed">
+  <origin xyz="0.0 0.0 -0.07733" rpy="0 0 0"/>
+  <parent link="joint_new3_1"/>
+  <child link="smallpart2_1"/>
+</joint>
+
+<joint name="Rigid 15" type="fixed">
+  <origin xyz="0.0 0.0 -0.01" rpy="0 0 0"/>
+  <parent link="smallpart2_1"/>
+  <child link="joint_new4_1"/>
+</joint>
+
+<joint name="Rigid 16" type="fixed">
+  <origin xyz="-0.0 0.0 -0.07733" rpy="0 0 0"/>
+  <parent link="joint_new6_1"/>
+  <child link="smallpart4_1"/>
+</joint>
+
+<joint name="Rigid 17" type="fixed">
+  <origin xyz="0.0 0.0 -0.01" rpy="0 0 0"/>
+  <parent link="smallpart4_1"/>
+  <child link="joint_new7_1"/>
+</joint>
+
+<joint name="Rigid 18" type="fixed">
+  <origin xyz="0.0 0.0 -0.04833" rpy="0 0 0"/>
+  <parent link="joint_new9_1"/>
+  <child link="smallpart_v2_1"/>
+</joint>
+
+<joint name="Rigid 19" type="fixed">
+  <origin xyz="0.0 0.0 -0.01" rpy="0 0 0"/>
+  <parent link="smallpart_v2_1"/>
+  <child link="joint_new10_1"/>
+</joint>
+
+<joint name="Revolute20" type="revolute">
+  <origin xyz="0.0 0.0 -0.04833" rpy="0 0 0"/>
+  <parent link="joint_new10_1"/>
+  <child link="joint_new11_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+  <limit upper="0.383972" lower="-0.383972" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute21" type="revolute">
+  <origin xyz="0.0 0.0 -0.0063" rpy="0 0 0"/>
+  <parent link="joint_new11_1"/>
+  <child link="joint_new12_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+  <limit upper="0.383972" lower="-0.383972" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Rigid 22" type="fixed">
+  <origin xyz="0.0 0.0 -0.04833" rpy="0 0 0"/>
+  <parent link="joint_new12_1"/>
+  <child link="smallpar5_1"/>
+</joint>
+
+<joint name="Rigid 23" type="fixed">
+  <origin xyz="0.0 0.0 -0.01" rpy="0 0 0"/>
+  <parent link="smallpar5_1"/>
+  <child link="joint_new13_1"/>
+</joint>
+
+<joint name="Revolute24" type="revolute">
+  <origin xyz="0.0 0.0 -0.04833" rpy="0 0 0"/>
+  <parent link="joint_new13_1"/>
+  <child link="joint_new14_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+  <limit upper="0.383972" lower="-0.383972" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute25" type="revolute">
+  <origin xyz="-0.0 0.0 -0.0063" rpy="0 0 0"/>
+  <parent link="joint_new14_1"/>
+  <child link="joint_new15_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+  <limit upper="0.383972" lower="-0.383972" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Rigid 26" type="fixed">
+  <origin xyz="0.0 0.0 -0.04833" rpy="0 0 0"/>
+  <parent link="joint_new15_1"/>
+  <child link="smallpart6_1"/>
+</joint>
+
+<joint name="Rigid 27" type="fixed">
+  <origin xyz="0.0 0.0 -0.01" rpy="0 0 0"/>
+  <parent link="smallpart6_1"/>
+  <child link="joint_new17_1"/>
+</joint>
+
+<joint name="Revolute28" type="revolute">
+  <origin xyz="0.0 0.0 -0.04833" rpy="0 0 0"/>
+  <parent link="joint_new17_1"/>
+  <child link="joint_new18_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+  <limit upper="0.383972" lower="-0.383972" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute29" type="revolute">
+  <origin xyz="0.0 0.0 -0.0063" rpy="0 0 0"/>
+  <parent link="joint_new18_1"/>
+  <child link="joint_new19_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+  <limit upper="0.383972" lower="-0.383972" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Rigid 30" type="fixed">
+  <origin xyz="0.0 0.0 -0.04833" rpy="0 0 0"/>
+  <parent link="joint_new19_1"/>
+  <child link="smallpart7_1"/>
+</joint>
+
+<joint name="Rigid 31" type="fixed">
+  <origin xyz="0.0 0.0 -0.01" rpy="0 0 0"/>
+  <parent link="smallpart7_1"/>
+  <child link="joint_new20_1"/>
+</joint>
+
+<joint name="Revolute32" type="revolute">
+  <origin xyz="0.0 0.0 -0.04833" rpy="0 0 0"/>
+  <parent link="joint_new20_1"/>
+  <child link="joint_new21_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+  <limit upper="0.383972" lower="-0.383972" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute33" type="revolute">
+  <origin xyz="0.0 0.0 -0.0063" rpy="0 0 0"/>
+  <parent link="joint_new21_1"/>
+  <child link="joint_new22_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+  <limit upper="0.383972" lower="-0.383972" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Rigid 34" type="fixed">
+  <origin xyz="-0.0 0.0 -0.04833" rpy="0 0 0"/>
+  <parent link="joint_new22_1"/>
+  <child link="smallpart8_1"/>
+</joint>
+
+</robot>

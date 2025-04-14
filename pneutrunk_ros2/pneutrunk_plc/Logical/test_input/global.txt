@@ -1,0 +1,4 @@
+VAR
+	    cos_test_hodnota2 : REAL := 0; (**)
+	    cos_test_hodnota1 : REAL := 0; (**)
+END_VAR

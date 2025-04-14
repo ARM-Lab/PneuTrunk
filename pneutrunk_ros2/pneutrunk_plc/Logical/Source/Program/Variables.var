@@ -1,0 +1,8 @@
+VAR
+	TON_0 : TON;
+	TON_1 : TON;
+	TON_2 : TON;
+	TON_3 : TON;
+	TON_4 : TON;
+	i : INT;
+END_VAR

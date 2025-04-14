@@ -1,0 +1,66 @@
+running develop
+Removing /home/administrator/ros2_bc_work1/install/test2025_description/lib/python3.10/site-packages/test2025-description.egg-link (link to .)
+running egg_info
+writing ../../../build/test2025_description/test2025_description.egg-info/PKG-INFO
+writing dependency_links to ../../../build/test2025_description/test2025_description.egg-info/dependency_links.txt
+writing entry points to ../../../build/test2025_description/test2025_description.egg-info/entry_points.txt
+writing requirements to ../../../build/test2025_description/test2025_description.egg-info/requires.txt
+writing top-level names to ../../../build/test2025_description/test2025_description.egg-info/top_level.txt
+reading manifest file '../../../build/test2025_description/test2025_description.egg-info/SOURCES.txt'
+writing manifest file '../../../build/test2025_description/test2025_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/administrator/ros2_bc_work1/build/test2025_description/build
+creating /home/administrator/ros2_bc_work1/build/test2025_description/build/lib
+creating /home/administrator/ros2_bc_work1/build/test2025_description/build/lib/test2025_description
+copying test2025_description/__init__.py -> /home/administrator/ros2_bc_work1/build/test2025_description/build/lib/test2025_description
+running install
+running install_lib
+creating /home/administrator/ros2_bc_work1/install/test2025_description/lib/python3.10/site-packages/test2025_description
+copying /home/administrator/ros2_bc_work1/build/test2025_description/build/lib/test2025_description/__init__.py -> /home/administrator/ros2_bc_work1/install/test2025_description/lib/python3.10/site-packages/test2025_description
+byte-compiling /home/administrator/ros2_bc_work1/install/test2025_description/lib/python3.10/site-packages/test2025_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/test2025_description -> /home/administrator/ros2_bc_work1/install/test2025_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description
+copying launch/display.launch.py -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/launch
+copying launch/gazebo.launch.py -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/launch
+copying urdf/materials.xacro -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/urdf
+copying urdf/test2025.xacro -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/urdf
+copying urdf/test2025.gazebo -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/urdf
+copying urdf/test2025.trans -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/urdf
+copying meshes/joint_new14_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/joint_new17_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/joint_new9_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/joint_new22_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/joint_new19_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/smallpart6_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/joint_new6_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/smallpart8_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/joint_new10_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/joint_new13_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/joint_new5_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/joint_new20_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/smallpart_v2_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/smallpart2_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/joint_new8_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/joint_new1_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/joint_new21_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/joint_new18_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/smallpart4_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/joint_new2_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/base_link.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/smallpart7_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/joint_new3_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/joint_new12_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/joint_new7_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/smallpar5_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/joint_new4_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/joint_new15_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying meshes/joint_new11_1.stl -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes
+copying config/gazebo.rviz -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/config
+copying config/ros_gz_bridge_gazebo.yaml -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/config
+copying config/display.rviz -> /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/config
+running install_egg_info
+Copying ../../../build/test2025_description/test2025_description.egg-info to /home/administrator/ros2_bc_work1/install/test2025_description/lib/python3.10/site-packages/test2025_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/administrator/ros2_bc_work1/build/test2025_description/install.log'

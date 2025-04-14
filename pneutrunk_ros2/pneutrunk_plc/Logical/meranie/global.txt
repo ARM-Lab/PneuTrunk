@@ -1,0 +1,8 @@
+VAR
+	    u1 : INT := 0; (**)
+	    p1 : REAL := 0; (**)
+	    p2 : REAL := 0; (**)
+	    p3 : REAL := 0; (**)
+	    u2 : INT := 0; (**)
+	    result : INT := 0; (**)
+END_VAR

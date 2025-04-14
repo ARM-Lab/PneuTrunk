@@ -1,0 +1,10 @@
+For manual assignment to hardware configuration please
+add the following additional include directories:
+
+\Logical\MATLAB_includes\R2023a\
+
+
+
+And the following additional build options:
+
+-lm -DMODEL=simulink_2_plc -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DRT -DUSE_RTMODEL -DEXT_MODE -DEXTMODE_STATIC -DEXTMODE_STATIC_SIZE=1000000 -DON_TARGET_WAIT_FOR_START=0 -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DTID01EQ=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0 

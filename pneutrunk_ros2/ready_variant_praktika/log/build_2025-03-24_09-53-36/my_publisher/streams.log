@@ -1,0 +1,40 @@
+[0.953s] Invoking command in '/home/administrator/ros2_bc_work1/build/my_publisher': PYTHONPATH=/home/administrator/ros2_bc_work1/build/my_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/administrator/ros2_bc_work1/install/my_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/administrator/ros2_bc_work1/build/my_publisher/build
+[1.246s] running develop
+[1.412s] Removing /home/administrator/ros2_bc_work1/install/my_publisher/lib/python3.10/site-packages/my-publisher.egg-link (link to .)
+[1.462s] Invoked command in '/home/administrator/ros2_bc_work1/build/my_publisher' returned '0': PYTHONPATH=/home/administrator/ros2_bc_work1/build/my_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/administrator/ros2_bc_work1/install/my_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/administrator/ros2_bc_work1/build/my_publisher/build
+[1.464s] Invoking command in '/home/administrator/ros2_bc_work1/src/my_publisher': PYTHONPATH=/home/administrator/ros2_bc_work1/build/my_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/administrator/ros2_bc_work1/install/my_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_publisher build --build-base /home/administrator/ros2_bc_work1/build/my_publisher/build install --record /home/administrator/ros2_bc_work1/build/my_publisher/install.log --single-version-externally-managed install_data --force
+[1.719s] running egg_info
+[1.719s] writing ../../build/my_publisher/my_publisher.egg-info/PKG-INFO
+[1.720s] writing dependency_links to ../../build/my_publisher/my_publisher.egg-info/dependency_links.txt
+[1.720s] writing entry points to ../../build/my_publisher/my_publisher.egg-info/entry_points.txt
+[1.720s] writing requirements to ../../build/my_publisher/my_publisher.egg-info/requires.txt
+[1.720s] writing top-level names to ../../build/my_publisher/my_publisher.egg-info/top_level.txt
+[1.722s] reading manifest file '../../build/my_publisher/my_publisher.egg-info/SOURCES.txt'
+[1.723s] writing manifest file '../../build/my_publisher/my_publisher.egg-info/SOURCES.txt'
+[1.723s] running build
+[1.723s] running build_py
+[1.724s] creating /home/administrator/ros2_bc_work1/build/my_publisher/build
+[1.724s] creating /home/administrator/ros2_bc_work1/build/my_publisher/build/lib
+[1.724s] creating /home/administrator/ros2_bc_work1/build/my_publisher/build/lib/my_publisher
+[1.725s] copying my_publisher/__init__.py -> /home/administrator/ros2_bc_work1/build/my_publisher/build/lib/my_publisher
+[1.725s] copying my_publisher/r_viz_receiver.py -> /home/administrator/ros2_bc_work1/build/my_publisher/build/lib/my_publisher
+[1.725s] copying my_publisher/plc_data_solver.py -> /home/administrator/ros2_bc_work1/build/my_publisher/build/lib/my_publisher
+[1.726s] running install
+[1.726s] running install_lib
+[1.726s] creating /home/administrator/ros2_bc_work1/install/my_publisher/lib/python3.10/site-packages/my_publisher
+[1.727s] copying /home/administrator/ros2_bc_work1/build/my_publisher/build/lib/my_publisher/__init__.py -> /home/administrator/ros2_bc_work1/install/my_publisher/lib/python3.10/site-packages/my_publisher
+[1.727s] copying /home/administrator/ros2_bc_work1/build/my_publisher/build/lib/my_publisher/r_viz_receiver.py -> /home/administrator/ros2_bc_work1/install/my_publisher/lib/python3.10/site-packages/my_publisher
+[1.727s] copying /home/administrator/ros2_bc_work1/build/my_publisher/build/lib/my_publisher/plc_data_solver.py -> /home/administrator/ros2_bc_work1/install/my_publisher/lib/python3.10/site-packages/my_publisher
+[1.728s] byte-compiling /home/administrator/ros2_bc_work1/install/my_publisher/lib/python3.10/site-packages/my_publisher/__init__.py to __init__.cpython-310.pyc
+[1.728s] byte-compiling /home/administrator/ros2_bc_work1/install/my_publisher/lib/python3.10/site-packages/my_publisher/r_viz_receiver.py to r_viz_receiver.cpython-310.pyc
+[1.735s] byte-compiling /home/administrator/ros2_bc_work1/install/my_publisher/lib/python3.10/site-packages/my_publisher/plc_data_solver.py to plc_data_solver.cpython-310.pyc
+[1.735s] running install_data
+[1.735s] copying resource/my_publisher -> /home/administrator/ros2_bc_work1/install/my_publisher/share/ament_index/resource_index/packages
+[1.736s] copying package.xml -> /home/administrator/ros2_bc_work1/install/my_publisher/share/my_publisher
+[1.736s] running install_egg_info
+[1.740s] Copying ../../build/my_publisher/my_publisher.egg-info to /home/administrator/ros2_bc_work1/install/my_publisher/lib/python3.10/site-packages/my_publisher-0.0.0-py3.10.egg-info
+[1.740s] running install_scripts
+[1.762s] Installing plc_ros_node script to /home/administrator/ros2_bc_work1/install/my_publisher/lib/my_publisher
+[1.763s] Installing plc_rviz_node script to /home/administrator/ros2_bc_work1/install/my_publisher/lib/my_publisher
+[1.763s] writing list of installed files to '/home/administrator/ros2_bc_work1/build/my_publisher/install.log'
+[1.797s] Invoked command in '/home/administrator/ros2_bc_work1/src/my_publisher' returned '0': PYTHONPATH=/home/administrator/ros2_bc_work1/build/my_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/administrator/ros2_bc_work1/install/my_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_publisher build --build-base /home/administrator/ros2_bc_work1/build/my_publisher/build install --record /home/administrator/ros2_bc_work1/build/my_publisher/install.log --single-version-externally-managed install_data --force

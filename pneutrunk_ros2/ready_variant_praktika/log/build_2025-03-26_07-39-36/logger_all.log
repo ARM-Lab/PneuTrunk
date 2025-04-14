@@ -1,0 +1,247 @@
+[0.116s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.116s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75244994e980>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75244994e380>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75244994e380>>, mixin_verb=('build',))
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.302s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/administrator/ros2_bc_work1'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_publisher) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_publisher) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_publisher) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_publisher) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_publisher) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_publisher) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_publisher) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_publisher) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_publisher' with type 'ros.ament_python' and name 'my_publisher'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description/test2025_description) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description/test2025_description) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description/test2025_description) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description/test2025_description) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description/test2025_description) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description/test2025_description) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description/test2025_description) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description/test2025_description) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/test2025_description/test2025_description) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test2025_description/test2025_description' with type 'ros.ament_python' and name 'test2025_description'
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.356s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/administrator/ros2_bc_work1/install
+[0.356s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/administrator/ros2_Hrinchenko/install
+[0.357s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/administrator/ros2_ws/install
+[0.358s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/humble
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'my_publisher' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'my_publisher' build argument 'cmake_target' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'my_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'my_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'my_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'my_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'my_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'my_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'my_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'my_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/ros2_bc_work1/build/my_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/ros2_bc_work1/install/my_publisher', 'merge_install': False, 'path': '/home/administrator/ros2_bc_work1/src/my_publisher', 'symlink_install': True, 'test_result_base': None}
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'test2025_description' build argument 'cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'test2025_description' build argument 'cmake_target' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'test2025_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'test2025_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'test2025_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'test2025_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'test2025_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'test2025_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'test2025_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.399s] DEBUG:colcon.colcon_core.verb:Building package 'test2025_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/ros2_bc_work1/build/test2025_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/ros2_bc_work1/install/test2025_description', 'merge_install': False, 'path': '/home/administrator/ros2_bc_work1/src/test2025_description/test2025_description', 'symlink_install': True, 'test_result_base': None}
+[0.399s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.400s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/administrator/ros2_bc_work1/src/my_publisher' with build type 'ament_python'
+[0.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_publisher', 'ament_prefix_path')
+[0.403s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/administrator/ros2_bc_work1/install/my_publisher/share/my_publisher/hook/ament_prefix_path.ps1'
+[0.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/administrator/ros2_bc_work1/install/my_publisher/share/my_publisher/hook/ament_prefix_path.dsv'
+[0.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/administrator/ros2_bc_work1/install/my_publisher/share/my_publisher/hook/ament_prefix_path.sh'
+[0.405s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.405s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.410s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/administrator/ros2_bc_work1/src/test2025_description/test2025_description' with build type 'ament_python'
+[0.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('test2025_description', 'ament_prefix_path')
+[0.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/hook/ament_prefix_path.ps1'
+[0.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/hook/ament_prefix_path.dsv'
+[0.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/hook/ament_prefix_path.sh'
+[0.413s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.414s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.679s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/administrator/ros2_bc_work1/src/my_publisher'
+[0.679s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.679s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.949s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/administrator/ros2_bc_work1/src/test2025_description/test2025_description'
+[0.950s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.950s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.321s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/my_publisher/share/ament_index/resource_index/packages/my_publisher
+[1.321s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/my_publisher/share/my_publisher/package.xml
+[1.321s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/my_publisher/lib/my_publisher/plc_ros_node
+[1.321s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/my_publisher/lib/my_publisher/plc_rviz_node
+[1.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/ros2_bc_work1/build/my_publisher': PYTHONPATH=/home/administrator/ros2_bc_work1/build/my_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/administrator/ros2_bc_work1/install/my_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/administrator/ros2_bc_work1/build/my_publisher/build --no-deps symlink_data --force
+[1.328s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/ament_index/resource_index/packages/test2025_description
+[1.328s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/package.xml
+[1.328s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/launch/display.launch.py
+[1.328s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/launch/gazebo.launch.py
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/urdf/materials.xacro
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/urdf/test2025.xacro
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/urdf/test2025.gazebo
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/urdf/test2025.trans
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new14_1.stl
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new17_1.stl
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new9_1.stl
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new22_1.stl
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new19_1.stl
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/smallpart6_1.stl
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new6_1.stl
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/bigpart.stl
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/smallpart8_1.stl
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new10_1.stl
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new13_1.stl
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new5_1.stl
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new20_1.stl
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/square.stl
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/smallpart_v2_1.stl
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/smallpart2_1.stl
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new8_1.stl
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new1_1.stl
+[1.329s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new21_1.stl
+[1.330s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new18_1.stl
+[1.330s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/smallpart4_1.stl
+[1.330s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new2_1.stl
+[1.330s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/base_link.stl
+[1.330s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/smallpart7_1.stl
+[1.330s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new3_1.stl
+[1.330s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new12_1.stl
+[1.330s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new7_1.stl
+[1.330s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/smallpar5_1.stl
+[1.330s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new4_1.stl
+[1.330s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new15_1.stl
+[1.330s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/meshes/joint_new11_1.stl
+[1.330s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/config/gazebo.rviz
+[1.330s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/config/ros_gz_bridge_gazebo.yaml
+[1.330s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/config/display.rviz
+[1.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/ros2_bc_work1/build/test2025_description': PYTHONPATH=/home/administrator/ros2_bc_work1/build/test2025_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/administrator/ros2_bc_work1/install/test2025_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/administrator/ros2_bc_work1/build/test2025_description/build --no-deps symlink_data --force
+[1.833s] Level 1:colcon.colcon_core.shell:create_environment_hook('test2025_description', 'pythonpath_develop')
+[1.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/administrator/ros2_bc_work1/build/test2025_description/share/test2025_description/hook/pythonpath_develop.ps1'
+[1.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/administrator/ros2_bc_work1/build/test2025_description' returned '0': PYTHONPATH=/home/administrator/ros2_bc_work1/build/test2025_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/administrator/ros2_bc_work1/install/test2025_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/administrator/ros2_bc_work1/build/test2025_description/build --no-deps symlink_data --force
+[1.835s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/administrator/ros2_bc_work1/build/test2025_description/share/test2025_description/hook/pythonpath_develop.dsv'
+[1.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/administrator/ros2_bc_work1/build/test2025_description/share/test2025_description/hook/pythonpath_develop.sh'
+[1.839s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/ros2_bc_work1/install/test2025_description' for CMake module files
+[1.839s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/ros2_bc_work1/install/test2025_description' for CMake config files
+[1.840s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/ros2_bc_work1/install/test2025_description/lib'
+[1.841s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/ros2_bc_work1/install/test2025_description/bin'
+[1.841s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/ros2_bc_work1/install/test2025_description/lib/pkgconfig/test2025_description.pc'
+[1.841s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/ros2_bc_work1/install/test2025_description/lib/python3.10/site-packages'
+[1.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('test2025_description', 'pythonpath')
+[1.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/hook/pythonpath.ps1'
+[1.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/hook/pythonpath.dsv'
+[1.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/hook/pythonpath.sh'
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/ros2_bc_work1/install/test2025_description/bin'
+[1.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test2025_description)
+[1.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/package.ps1'
+[1.844s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/package.dsv'
+[1.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/package.sh'
+[1.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/package.bash'
+[1.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/administrator/ros2_bc_work1/install/test2025_description/share/test2025_description/package.zsh'
+[1.848s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/administrator/ros2_bc_work1/install/test2025_description/share/colcon-core/packages/test2025_description)
+[1.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_publisher', 'pythonpath_develop')
+[1.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/administrator/ros2_bc_work1/build/my_publisher/share/my_publisher/hook/pythonpath_develop.ps1'
+[1.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/administrator/ros2_bc_work1/build/my_publisher' returned '0': PYTHONPATH=/home/administrator/ros2_bc_work1/build/my_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/administrator/ros2_bc_work1/install/my_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/administrator/ros2_bc_work1/build/my_publisher/build --no-deps symlink_data --force
+[1.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/administrator/ros2_bc_work1/build/my_publisher/share/my_publisher/hook/pythonpath_develop.dsv'
+[1.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/administrator/ros2_bc_work1/build/my_publisher/share/my_publisher/hook/pythonpath_develop.sh'
+[1.852s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/ros2_bc_work1/install/my_publisher' for CMake module files
+[1.853s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/ros2_bc_work1/install/my_publisher' for CMake config files
+[1.853s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/ros2_bc_work1/install/my_publisher/lib'
+[1.853s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/ros2_bc_work1/install/my_publisher/bin'
+[1.853s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/ros2_bc_work1/install/my_publisher/lib/pkgconfig/my_publisher.pc'
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/ros2_bc_work1/install/my_publisher/lib/python3.10/site-packages'
+[1.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_publisher', 'pythonpath')
+[1.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/administrator/ros2_bc_work1/install/my_publisher/share/my_publisher/hook/pythonpath.ps1'
+[1.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/administrator/ros2_bc_work1/install/my_publisher/share/my_publisher/hook/pythonpath.dsv'
+[1.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/administrator/ros2_bc_work1/install/my_publisher/share/my_publisher/hook/pythonpath.sh'
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/ros2_bc_work1/install/my_publisher/bin'
+[1.855s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_publisher)
+[1.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/administrator/ros2_bc_work1/install/my_publisher/share/my_publisher/package.ps1'
+[1.856s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/administrator/ros2_bc_work1/install/my_publisher/share/my_publisher/package.dsv'
+[1.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/administrator/ros2_bc_work1/install/my_publisher/share/my_publisher/package.sh'
+[1.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/administrator/ros2_bc_work1/install/my_publisher/share/my_publisher/package.bash'
+[1.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/administrator/ros2_bc_work1/install/my_publisher/share/my_publisher/package.zsh'
+[1.858s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/administrator/ros2_bc_work1/install/my_publisher/share/colcon-core/packages/my_publisher)
+[1.858s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.859s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.859s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.859s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.866s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.866s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.866s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.875s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.876s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/administrator/ros2_bc_work1/install/local_setup.ps1'
+[1.877s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/administrator/ros2_bc_work1/install/_local_setup_util_ps1.py'
+[1.878s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/administrator/ros2_bc_work1/install/setup.ps1'
+[1.880s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/administrator/ros2_bc_work1/install/local_setup.sh'
+[1.881s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/administrator/ros2_bc_work1/install/_local_setup_util_sh.py'
+[1.882s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/administrator/ros2_bc_work1/install/setup.sh'
+[1.883s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/administrator/ros2_bc_work1/install/local_setup.bash'
+[1.884s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/administrator/ros2_bc_work1/install/setup.bash'
+[1.886s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/administrator/ros2_bc_work1/install/local_setup.zsh'
+[1.886s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/administrator/ros2_bc_work1/install/setup.zsh'

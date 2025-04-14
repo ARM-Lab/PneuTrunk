@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.6.106"?>
+<ProjectOptions
+  IecNamingConventions="true"
+  IecKeywordsAsStructureMembers="false"
+  IecExtendedConstants="true"
+  LogicalDirectory="C:\Users\Gleb\Documents\PneuTrunk-main\pneutrunk_plc\Logical\"
+  TempDirectory="C:\Users\Gleb\Documents\PneuTrunk-main\pneutrunk_plc\Temp\"
+  AutomationStudioVersion="4.12.6.106"
+  AutomationStudioEdition="Standard"
+  BuildCrossReference="false"
+  ActiveConfiguration="Config1"
+  CreateAnsiCDeclarations="false" />

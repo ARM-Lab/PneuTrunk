@@ -1,0 +1,10 @@
+For manual assignment to hardware configuration please
+add the following additional include directories:
+
+\Logical\MATLAB_includes\R2021b\
+
+
+
+And the following additional build options:
+
+-lm -D RT_MALLOC -D MODEL=reg_FF_PI_pl_regr_stiff -D NUMST=1 -D NCSTATES=0 -D HAVESTDIO -D RT -D USE_RTMODEL -D CLASSIC_INTERFACE=0 -D ALLOCATIONFCN=1 -D TID01EQ=0 -D MAT_FILE=0 -D ONESTEPFCN=1 -D TERMFCN=1 -D MULTI_INSTANCE_CODE=1 -D INTEGER_CODE=0 -D MT=0 

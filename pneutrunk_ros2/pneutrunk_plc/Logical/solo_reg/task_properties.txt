@@ -1,0 +1,10 @@
+For manual assignment to hardware configuration please
+add the following additional include directories:
+
+\Logical\MATLAB_includes\R2023a\
+
+
+
+And the following additional build options:
+
+-lm -DMODEL=pneutr2_reg_FF_stiff -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DRT -DUSE_RTMODEL -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DTID01EQ=0 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0 

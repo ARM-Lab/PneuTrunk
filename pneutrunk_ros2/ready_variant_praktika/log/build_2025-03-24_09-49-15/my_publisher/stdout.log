@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating my_publisher.egg-info
+writing my_publisher.egg-info/PKG-INFO
+writing dependency_links to my_publisher.egg-info/dependency_links.txt
+writing entry points to my_publisher.egg-info/entry_points.txt
+writing requirements to my_publisher.egg-info/requires.txt
+writing top-level names to my_publisher.egg-info/top_level.txt
+writing manifest file 'my_publisher.egg-info/SOURCES.txt'
+reading manifest file 'my_publisher.egg-info/SOURCES.txt'
+writing manifest file 'my_publisher.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/administrator/ros2_bc_work1/install/my_publisher/lib/python3.10/site-packages/my-publisher.egg-link (link to .)
+Installing plc_ros_node script to /home/administrator/ros2_bc_work1/install/my_publisher/lib/my_publisher
+Installing plc_rviz_node script to /home/administrator/ros2_bc_work1/install/my_publisher/lib/my_publisher
+
+Installed /home/administrator/ros2_bc_work1/build/my_publisher
+running symlink_data
+creating /home/administrator/ros2_bc_work1/install/my_publisher/share/ament_index
+creating /home/administrator/ros2_bc_work1/install/my_publisher/share/ament_index/resource_index
+creating /home/administrator/ros2_bc_work1/install/my_publisher/share/ament_index/resource_index/packages
+symbolically linking /home/administrator/ros2_bc_work1/build/my_publisher/resource/my_publisher -> /home/administrator/ros2_bc_work1/install/my_publisher/share/ament_index/resource_index/packages
+symbolically linking /home/administrator/ros2_bc_work1/build/my_publisher/package.xml -> /home/administrator/ros2_bc_work1/install/my_publisher/share/my_publisher
