@@ -62,7 +62,7 @@ Done! Your system is now ready to use ROS 2, run Python scripts.
 
 <h2 align="center">Structure of the project</h2>
 
-![main_description](media/structure_main.png)
+![main_description](media/structure.png)
 
 Once you open this repository, you will see these folders. We are only interested in the **src** folder, which contains the main elements of the system. Here you will also find the file **plc_sender.py**, which serves as a GUI for sending pressure values directly to the PLC.
 
@@ -152,3 +152,13 @@ This will:
 ```source ~/your_workspace_name/install/setup.bash```
 
 ✅ Replace your_workspace_name with the actual name of your workspace directory.
+
+## 📜 License
+
+MIT License — free to use, modify and cite with attribution.
+
+---
+
+## 🎓 Author
+
+Developed by Hlieb Hrinchenko
