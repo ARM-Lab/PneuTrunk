@@ -6,7 +6,7 @@
   <img src="image/MuJoCo.jpg" width="600"/>
 </p>
 
-# 🧠 Model Soft Robot in MuJoCo
+# Model Soft Robot in MuJoCo
 
 This project simulates a soft modular robot using the MuJoCo physics engine and neural networks trained on real pressure-angle data. Each module independently predicts its bending angles based on 3 pressure values.
 
@@ -102,7 +102,7 @@ C:/Users/YourName/.mujoco/mujoco210/models/soft_robot/
 └── stl/
     ├── base_link.stl
     ├── joint_new1_1.stl
-    ├── ...
+    └── ...
 ```
 
 2. In `sender_angels.py`, set the path to the XML model:
@@ -113,9 +113,23 @@ xml_path = 'C:/Users/YourName/.mujoco/mujoco210/models/soft_robot/myrob1.xml'
 
 ---
 
+### 4. 🛃 Set Paths to Files in Scripts
+
+In the following scripts, you must manually set the correct paths to your files:
+
+| Script                  | What to change                                 | Example path                                                    |
+|--------------------------|------------------------------------------------|-----------------------------------------------------------------|
+| `sender_angels.py`       | Path to MuJoCo XML model                       | `xml_path = 'C:/Users/YourName/.mujoco/mujoco210/models/soft_robot/myrob1.xml'` |
+| `test_neuron_data.py`    | Paths to pre-trained model (.h5) and scaler (.pkl) | `model = load_model('C:/path/to/angles/model1.h5')` and `scaler = joblib.load('C:/path/to/angles/scaler1.pkl')` |
+| `neuron_set.py`          | Paths to Excel training datasets               | `data = pd.read_excel('C:/path/to/data/data1.xlsx')` |
+
+❗ **Important:** make sure that file paths match where you have saved your files.
+
+---
+
 ## 🚀 How to Use the Project
 
-### 1. 🧠 Train Neural Networks
+### 1. 🧐 Train Neural Networks
 
 To train models from Excel files:
 
@@ -156,11 +170,12 @@ A viewer window will open with a 3D model of your soft robot moving based on pre
 
 | Feature               | File                | Where to Change                  |
 |-----------------------|---------------------|----------------------------------|
-| Pressure inputs       | `sender_angels.py`  | `test_inputs = {...}`           |
-| NN architecture       | `neuron_set.py`     | Keras `Sequential()` block       |
-| Datasets              | `data/`             | Replace or add `data{i}.xlsx`   |
-| Model file path       | `sender_angels.py`  | `xml_path = ...`                |
-| STL mesh filenames    | `myrob1.xml`        | `<mesh file="..." ... />`       |
+| Pressure inputs       | `sender_angels.py`   | `test_inputs = {...}`            |
+| NN architecture       | `neuron_set.py`      | Keras `Sequential()` block       |
+| Datasets              | `data/`              | Replace or add `data{i}.xlsx`    |
+| Model file path       | `sender_angels.py`   | `xml_path = ...`                 |
+| STL mesh filenames    | `myrob1.xml`         | `<mesh file="..." ... />`        |
+| File paths setup      | `sender_angels.py`, `test_neuron_data.py`, `neuron_set.py` | Set correct absolute paths manually |
 
 ---
 

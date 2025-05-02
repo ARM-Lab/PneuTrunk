@@ -6,7 +6,8 @@ import mujoco.viewer
 import time
 from keras.models import load_model
 
-base_path = "D:/Soft_Robot_mujoco/angles"
+# Paste your path
+base_path = " your file path "
 
 # Load all trained models and scalers
 models = {}
@@ -25,7 +26,7 @@ for i in range(1, 7):
 print("All models and scalers loaded.")
 
 # Load MuJoCo model
-xml_path = 'D:/mujoco/bin/myrob1.xml'
+xml_path = ' your file path '
 mj_model = mujoco.MjModel.from_xml_path(xml_path)
 data = mujoco.MjData(mj_model)
 
