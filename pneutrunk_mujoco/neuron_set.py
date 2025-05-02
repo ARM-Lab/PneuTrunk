@@ -8,9 +8,9 @@ from keras.models import Sequential
 from keras.layers import Dense
 import joblib
 
-# Paths
-data_path = "D:/Soft_Robot_mujoco/data/data2.xlsx"
-save_path = "D:/Soft_Robot_mujoco/angles"
+# Paste your path
+data_path = " your file path"
+save_path = " your file path"
 
 # Load dataset
 data = pd.read_excel(data_path)
